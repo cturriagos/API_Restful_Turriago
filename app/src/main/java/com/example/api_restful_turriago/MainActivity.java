@@ -87,10 +87,12 @@ public class MainActivity extends AppCompatActivity {
                                 json_transform = new JSONObject(response);
                                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                                 Bundle b = new Bundle();
+                                //b.putString("json", json_transform.getString("id"));
+                                //intent.putExtras(b);
+                                //b.putString("json", json_transform.getString("name"));
                                 b.putString("json",json_transform.getString("data"));
                                 intent.putExtras(b);
                                 startActivity(intent);
-
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();

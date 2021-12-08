@@ -43,8 +43,6 @@ public class MainActivity2 extends AppCompatActivity {
         initUI();
         Bundle bundle = this.getIntent().getExtras();
         textView.setText(bundle.getString("json"));
-
-
         //stringRequest();
         //jsonArrayRequest();
         //obtenerRegistro();

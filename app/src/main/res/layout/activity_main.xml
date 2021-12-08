@@ -13,8 +13,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="91dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="63dp"
         android:text="API Restful en Android"
         android:textAlignment="center"
         android:textSize="34sp"
@@ -27,8 +27,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="119dp"
-        android:layout_marginTop="334dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="312dp"
         android:onClick="btnLeer_Volley"
         android:text="Leer con Volley" />
 
@@ -38,6 +38,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="306dp"
+        android:layout_marginBottom="322dp"
         android:text="Leer con Retrofit" />
 </RelativeLayout>
